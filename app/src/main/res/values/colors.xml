@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffc048</color>
+    <color name="colorPrimaryDark">#ffc048</color>
+    <color name="colorAccent">#bdc3c7</color>
+    <color name="white">#ffffff</color>
+    <color name="orangegelap">#d35400</color>
+    <color name="orangeterang">#fd9644</color>
+    <color name="transparant">#00000000</color>
+    <color name="rosyhiglight">#f7d794</color>
+    <color name="sawtooth">#f19066</color>
+    <color name="sawrawak">#F8EFBA</color>
+    <color name="silver">#bdc3c7</color>
+</resources>

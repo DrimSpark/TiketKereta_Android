@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ubahdandetail">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="-70dp"
+        android:text="Detail Tiket"
+        android:textStyle="bold"
+        android:background="@drawable/lg_bg"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        />
+
+    <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        app:cardCornerRadius="5dp"
+        android:layout_gravity="center"
+        android:layout_height="550dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kode Booking"
+                android:id="@+id/kodebooking"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="kota asal"
+                android:id="@+id/kotaasal"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="kota tujuan"
+                android:id="@+id/kotatujuan"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tanggal Berangkat"
+                android:id="@+id/TanggalBerangkat"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="nama stasiun"
+                android:id="@+id/namastasiun"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="jadwal keberangkatan"
+                android:id="@+id/jadwalkeberangkatan"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="jadwal tiba"
+                android:id="@+id/jadwaltiba"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="kelas penumpang"
+                android:id="@+id/klspenumpang"/>
+
+            <EditText
+                android:id="@+id/keretaapi"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:hint="kereta api" />
+
+            <EditText
+                android:id="@+id/Harga"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:hint="Harga" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_input"
+                android:text="Submit"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/btnKirim"/>
+
+        </LinearLayout>
+    </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+
+</LinearLayout>

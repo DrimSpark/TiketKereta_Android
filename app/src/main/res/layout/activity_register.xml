@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lg_bg"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_register_foreground"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:text="Register"
+
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:hint="Username"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textColorHint="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/edt_bg"
+                        android:id="@+id/EdtNamaLengkap"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:hint="Nama Lengkap"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textColorHint="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/edt_bg"
+                        android:id="@+id/EdtUsernameRegister"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:hint="Alamat"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:textColorHint="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/edt_bg"
+                        android:id="@+id/EdtAlamat"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:textSize="20sp"
+                        android:hint="Password"
+                        android:textColor="@color/white"
+                        android:inputType="textPassword"
+                        android:gravity="center"
+                        android:textColorHint="@color/white"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/edt_bg"
+                        android:id="@+id/EdtPasswordRegister"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="25dp"
+                        android:text="Register"
+                        android:textSize="20sp"
+                        android:paddingLeft="70dp"
+                        android:paddingRight="70dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white"
+                        android:id="@+id/btnregister"
+                        android:background="@drawable/btn_bg"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparant"
+                        android:text="Sudah Punya Akun"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/white"
+                        android:id="@+id/btnlinklogin"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
